@@ -1,0 +1,2 @@
+
+alert(Date.now());
