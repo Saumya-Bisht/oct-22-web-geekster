@@ -1,0 +1,60 @@
+
+.outer{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerbox{
+    width: 700px;
+    height: 860px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.whitebox{
+    width: 83%;
+    height: 85%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.redbox{
+    width: 85%;
+    height: 90%;
+    background-color: #531606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.redupperbox{
+    width: 88%;
+    height: 25%;
+    background-color: #e6b060;
+    border-radius: 6%;
+    margin:10px;
+    
+
+}
+.redmiddlebox{
+    width: 94%;
+    height: 40%;
+    background-color: #8d0806;
+    margin: 5px;
+    border-radius: 6%;
+}
+ .redlowerbox{
+    width: 95%;
+    height: 25%;
+    border: rgb(5, 5, 5) solid;
+    background-color: #b30707;
+    margin: 5px;
+    border-top-left-radius: 11%;
+    border-bottom-right-radius: 34%;
+} 
