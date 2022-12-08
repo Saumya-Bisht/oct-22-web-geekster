@@ -1,0 +1,111 @@
+body {
+    height: 100%;
+    background-color: #204a6f;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+  }
+  .center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .calculator {
+    background-color: #e14368;
+    border-radius: 10px;
+    box-shadow: 0 8px #e71546;
+    height: 355px;
+    min-width: 390px;
+    width: 390px;
+  }
+ 
+
+  button {
+    border: 0;
+    color: #f1ebeb;
+    outline: 0;
+    font-weight: bold;
+
+  }
+  .upper  {
+    display: flex;
+    width: 100%;
+  }
+  .upper button {
+    box-shadow: 0 4px 1px #d79803;
+    background: #f4c863;
+    border-radius: 10px;
+    color: #6b6868;
+    flex: 0.9;
+    font-size: 22px;
+    height: 48px;
+    line-height: 48px;
+    margin: 10px;
+    
+  }
+  .upper  div {
+    background: #295c89;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 5px #a50f32;
+    color: #ede8e8;
+    flex: 4;
+    font-size: 35px;
+    height: 26px;
+    margin: 10px;
+    padding: 12px;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 2%;
+    
+  }
+  
+  
+  .nums {
+    display: flex;
+    flex-flow: column wrap;
+    height: 290px;
+    
+  }
+  
+  .nums button.equals {
+    box-shadow: 0 4px 1px #037d5c;
+    background: #09c795;
+    color: #8f8c8c;
+    
+  }
+  
+  .nums button {
+    box-shadow: 0 4px 1px #193853;
+    background: #265176;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 48px;
+    margin: 9px;
+    width: 75px;
+    
+  }
+  .nums button.multiply {
+    box-shadow: 0 4px 1px #cd9105;
+    background: #f2c65f;
+    color: #6f6e6e;
+    line-height: 45px;
+  }
+  .nums button.divide {
+    box-shadow: 0 4px 1px #cd9105;
+    background: #f2c65f;
+    color: #6f6e6e;
+    line-height: 45px;
+  }
+  .nums button.add {
+    box-shadow: 0 4px 1px #cd9105;
+    background: #f2c65f;
+    color: #6f6e6e;
+    line-height: 45px;
+  }
+  .nums button.substract {
+    box-shadow: 0 4px 1px #cd9105;
+    background: #f2c65f;
+    color: #6f6e6e;
+    line-height: 45px;
+  }
