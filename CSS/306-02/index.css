@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+.one{
+    display: flex;
+    
+}
+.two{
+    
+    display: flex;
+    margin-left: 18.1%;
+    margin-top: -7.85%;
+}
+.three{
+    display: flex;
+    margin-left: 40%;
+    margin-top: -7.85%;
+    
+}
+.four{
+    display: flex;
+    margin-left: 57%;
+    margin-top: -18.5%;
+}
+.five{
+    display: flex;
+    
+    margin-top: -11%;
+}
+.six{
+    display: flex;
+    margin-left: 22%;
+    margin-top: -11.5%;
+}
+.seven{
+    display: flex;
+    
+    margin-top: 0.5%;
+}
+.eight{
+    display: flex;
+    margin-left: 25.2%;
+    margin-top: -14%;
+}
+.nine{
+    display: flex;
+    margin-left: 57.5%;
+    margin-top: -14%;
+}
+.foot{
+    display: flex;
+    
+    margin-top: 1%;
+}
